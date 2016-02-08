@@ -1,6 +1,8 @@
 # IDEA
 .idea/
 trams.iml
+test.iml
+main.iml
 
 # Maven
 target/
