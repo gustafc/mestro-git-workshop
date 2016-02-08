@@ -12,7 +12,6 @@ public interface Processor {
             case "length": return new LengthProcessor();
             case "reverse": return new ReverseProcessor();
         }
-        // TODO: Should throw IllegalArgumentException of returning null
-        return null;
+        throw new IllegalArgumentException("Bad name: " + name);
     }
 }
